@@ -4,13 +4,19 @@
   "description": "node and google oauth",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon start server.js",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jontiritilli/Google-OAuth.git"
   },
   "author": "Jonathan Tiritilli",
   "license": "ISC",
   "dependencies": {
+    "cookie-session": "^2.0.0-beta.3",
     "express": "^4.16.2",
+    "mongoose": "^5.0.6",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0"
   },
